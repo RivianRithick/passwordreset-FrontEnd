@@ -80,24 +80,7 @@ const ForgetPassword = () => {
                 Enter your email-id to reset your password. We'll send you a
                 password reset link to your email.
               </p>
-              <div class="d-flex justify-content-evenly">
-                <button
-                  class="btn transparent"
-                  id="sign-in-btn"
-                  onClick={handleClick}
-                >
-                  Sign In
-                </button>
-                <button
-                  class="btn transparent"
-                  id="sign-up-btn"
-                  onClick={SignupClick}
-                >
-                  Sign up
-                </button>
-              </div>
             </div>
-            <img src="/forgot.svg" class="image" alt="" />
           </div>
         </div>
       </div>
